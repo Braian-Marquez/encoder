@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@400;700&display=swap');
+*
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.header {
+  position:relative;
+  text-align: center;
+  margin-top:30px;
+  margin-bottom:50px;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  display:inline;
+  text-decoration: none;
+  color: #212529;
+  font-size: 30px
+}
+
+.img {
+  float:left;
+  height:150px;
+  width: 150px;
+}
+
+textarea {
+  resize: none;
+}
+
+body {
+  background-color: #f8f9fa;
+  color:#212529;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.main {
+
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.box {
+  
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px #0A387133;
+  background-color: white;
+  border-radius: 0.5em;
+  width: 40vw;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  color: #212529;
+  background-color: transparent;
+
+}
+
+.btn {
+  border: 0;
+  color: #FFF;
+  font-weight: bold;
+  background-color: #0A3871;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 1em;
+}
+
+#btn-desencriptar {
+  background-color: #f8f9fa;
+  border:1px solid #0A3871;
+  color:#0A3871;
+  border-radius: 1em;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color:#FFF;
+}
+
+.btn:active{
+  transform: translateY(1px);
+}
+
+.text-input {
+  font-family: 'Poppins', sans-serif;
+  color:#0A3871;
+  border-radius: 0.5em;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  display: block;
+  padding: 1em;
+  width: 100%;
+  height: 250px;
+}
+
+footer {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #212529;
+  margin-top: 180px;
+}
+
+.git{
+  display: flex;
+  justify-content: center;
+}
+
+.git i {
+  font-size: 30px;
+}

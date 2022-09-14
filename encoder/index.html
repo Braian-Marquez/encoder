@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de textos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Roboto:ital,wght@0,500;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images.ico">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <img class="img" src="img/1486503785-authorisation-lock-padlock-password-privacy-safe-security_81267.png" alt="Alura Logo">
+      
+      <h3 class="title">Encriptador de textos</h3>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto">Solo letras, minúsculas y sin tildes.</label>
+        <textarea class="text-input" type="text" name="input-texto" id="input-texto"
+          placeholder="Ingrese el texto aqui" rows="100" cols="50"> </textarea>
+        <input class="btn" type="button"  value="Encriptar" id="btn-encriptar">
+        <input class="btn" type="button"  value="Desencriptar" id="btn-desencriptar">
+      </form>
+    </section>
+
+    <section class="msg box">
+      <label for="encrypted-text">Este es tu texto encriptado</label>
+      <input class="text-input" type="text" id="msg"></input>
+      <input class="btn" onclick="copiar()" type="submit" value="Copiar" id="btn-copy" readonly>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <h4>Contáctame</h4>
+    </div>
+    <div class="git">
+      <a href="https://github.com/Braian-Marquez" class="botonGit">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="Linkedin">
+      <a href="https://www.linkedin.com/in/braian-leandro-marquez-8741071b2" title="LinkedIn" class="btn btn-linkedin btn-lg"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
+    </div>
+    <div class="container">Proyecto creado por Braian Marquez para el Challenge Alura + ORACLE (2022)</p>
+
+    </div>
+
+  </footer>
+  <script src="https://kit.fontawesome.com/48400c72b3.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
